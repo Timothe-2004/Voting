@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
         decoration: BoxDecoration(
             image: DecorationImage(
                 image: AssetImage(
-                  'assets/images/paysage.jpg',
+                  'assets/images/background.jpg',
 
                 )
             )
@@ -64,7 +64,7 @@ class HomePage extends StatelessWidget {
                       ],
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(top: 45),
+                      padding: const EdgeInsets.only(top: 30),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
