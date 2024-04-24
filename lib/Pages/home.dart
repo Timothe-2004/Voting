@@ -73,9 +73,9 @@ class HomePage extends StatelessWidget {
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text("LE VOTE EST UN DEVOIR"),
-                                  Text("Chaque citoyen a le devoir de prendre part à la vie politique en général", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
-                                  Text("LA DEMOCRATIE TRANSPARENTE", style: TextStyle(fontWeight: FontWeight.w300),),
+                                  Text("LE VOTE EST UN DEVOIR", style: TextStyle(fontWeight: FontWeight.w300),),
+                                  Text("Chaque citoyen a le devoir de prendre"),
+                                  Text("part à la vie politique en général"),
                                 ],
                               )
                             ],
